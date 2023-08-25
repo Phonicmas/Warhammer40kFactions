@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		  <li>GrimForge 40.000: Imperium Weaponry</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		  <operations>
+		  
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName="BEWH_LordCommander"]/weaponTags</xpath>
+				<value>		
+					<li>ImperiumRangedBolter</li>
+					<li>ImperiumRangedPlasma</li>
+				</value>
+			 </li>
+		  
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName="BEWH_ChaosMarineKhorne"]/weaponTags</xpath>
+				<value>		
+					<li>ImperiumMeleeRegular</li>
+					<li>ImperiumMeleeForce</li>
+				</value>
+			 </li>
+				   
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[
+				defName="BEWH_PrimarisSpaceMarine" or
+				defName="BEWH_ChaosMarineUndivided" or 
+				defName="BEWH_ChaosMarineNurgle" or 
+				defName="BEWH_ChaosMarineSlaanesh" or 
+				defName="BEWH_ChaosMarineTzeentch" or 
+				defName="BEWH_DPUndivided" or 
+				defName="BEWH_DPKhorne" or 
+				defName="BEWH_DPNurgle" or 
+				defName="BEWH_DPSlaanesh" or 
+				defName="BEWH_DPTzeentch"
+				]/weaponTags</xpath>
+				<value>		
+					<li>ImperiumRangedArk</li>
+					<li>ImperiumRangedBolter</li>
+					<li>ImperiumRangedFlamer</li>
+					<li>ImperiumRangedGalvanic</li>
+					<li>ImperiumRangedGrenade</li>
+					<li>ImperiumRangedPlasma</li>
+					<li>ImperiumMeleeRegular</li>
+				</value>
+			 </li>
+		  
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[
+				defName="BEWH_ChaosMarineUndividedPsyker" or
+				defName="BEWH_ChaosMarineNurglePsyker" or
+				defName="BEWH_ChaosMarineSlaaneshPsyker" or
+				defName="BEWH_ChaosMarineTzeentchPsyker" or
+				defName="BEWH_SpaceMarinePsyker"
+				]/weaponTags</xpath>
+				<value>		
+					<li>ImperiumRangedArk</li>
+					<li>ImperiumRangedBolter</li>
+					<li>ImperiumRangedFlamer</li>
+					<li>ImperiumRangedGalvanic</li>
+					<li>ImperiumRangedGrenade</li>
+					<li>ImperiumRangedPlasma</li>
+					<li>ImperiumMeleeForce</li>
+				</value>
+			 </li>
+		  </operations>
+		</match>
+	  </Operation>
+</Patch>
