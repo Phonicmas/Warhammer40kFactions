@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <!-- Chaos Power Armor-->
-  <ResearchProjectDef>
-    <defName>BEWH_ChaosPowerArmor</defName>
-    <label>Chaos Power Armor</label>
-    <description>Unlocks recipes for creating chaos power armor.</description>
+  <!-- Power Amor Base -->
+  <ResearchProjectDef Name="BEWH_PowerArmorResearchBase" Abstract="True">
     <baseCost>10000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
@@ -17,29 +14,26 @@
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
-    <researchViewX>18</researchViewX>
-    <researchViewY>2</researchViewY>
+    <tab>BEWH_WH40kTab</tab>
+  </ResearchProjectDef>
+
+  <!-- Chaos Power Armor-->
+  <ResearchProjectDef ParentName="BEWH_PowerArmorResearchBase">
+    <defName>BEWH_ChaosPowerArmor</defName>
+    <label>Chaos Power Armor</label>
+    <description>Unlocks recipes for creating chaos power armor.</description>
+    <researchViewX>1</researchViewX>
+    <researchViewY>4</researchViewY>
   </ResearchProjectDef>
 
 
   <!-- Power Armor-->
-  <ResearchProjectDef>
+  <ResearchProjectDef ParentName="BEWH_PowerArmorResearchBase">
     <defName>BEWH_PowerArmor</defName>
     <label>Power Armor</label>
     <description>Unlocks recipes for creating power armor.</description>
-    <baseCost>10000</baseCost>
-    <techLevel>Spacer</techLevel>
-    <prerequisites>
-      <li>AdvancedFabrication</li>
-      <li>PoweredArmor</li>
-      <li MayRequire="Ludeon.RimWorld.Royalty">CataphractArmor</li>
-    </prerequisites>
-    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-    <requiredResearchFacilities>
-      <li>MultiAnalyzer</li>
-    </requiredResearchFacilities>
-    <researchViewX>18</researchViewX>
-    <researchViewY>3</researchViewY>
+    <researchViewX>1</researchViewX>
+    <researchViewY>6</researchViewY>
   </ResearchProjectDef>
 
 </Defs>
