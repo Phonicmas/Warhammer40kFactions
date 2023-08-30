@@ -1,0 +1,16 @@
+﻿using HarmonyLib;
+using RimWorld;
+using Verse;
+
+
+namespace Faction40k
+{
+    [HarmonyPatch(typeof(StockGenerator_Slaves), "HandlesThingDef")]
+    public class DisallowSlaveBuyingPatch
+    {
+        public static bool Postfix(ThingDef thingDef)
+        {
+            
+        }
+    }
+}

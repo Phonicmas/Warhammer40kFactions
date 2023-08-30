@@ -35,7 +35,6 @@
                 <BEWH_DPTzeentch>0.002</BEWH_DPTzeentch>
                 <BEWH_DPSlaanesh>0.002</BEWH_DPSlaanesh>
             </xenotypeChances>
-            <warnIfTotalAbove1>true</warnIfTotalAbove1>
         </xenotypeSet>
         <backstoryFilters>
             <li>
@@ -56,9 +55,10 @@
                 <li>(0,0)</li>
                 <li>(400, 60)</li>
                 <li>(1000, 90)</li>
-                <li>(2000, 200)</li>
-                <li>(5000, 600)</li>
-                <li>(10000, 2000)</li>
+                <li>(2000, 150)</li>
+                <li>(5000, 200)</li>
+                <li>(7500, 600)</li>
+                <li>(10000, 1000)</li>
                 <li>(100000, 5000)</li>
             </points>
         </maxPawnCostPerTotalPointsCurve>

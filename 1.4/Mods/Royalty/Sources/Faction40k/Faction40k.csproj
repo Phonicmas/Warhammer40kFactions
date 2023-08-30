@@ -57,6 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HarmonyPatch_NoSMSlaves.cs.txt" />
     <Compile Include="RoyalTitleAwardWorker_PrimarisMarine.cs" />
     <Compile Include="RoyalTitleAwardWorker_SpaceMarine.cs" />
     <Compile Include="Faction40kMod.cs" />

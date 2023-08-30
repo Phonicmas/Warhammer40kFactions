@@ -33,7 +33,6 @@
                 <BEWH_PrimarisSpaceMarine>0.10</BEWH_PrimarisSpaceMarine>
                 <BEWH_SpaceMarinePsyker>0.10</BEWH_SpaceMarinePsyker>
             </xenotypeChances>
-            <warnIfTotalAbove1>true</warnIfTotalAbove1>
         </xenotypeSet>
         <backstoryFilters>
             <li>
