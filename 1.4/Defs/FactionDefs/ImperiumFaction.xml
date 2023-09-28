@@ -11,7 +11,8 @@
         <fixedLeaderKinds>
             <li>BEWH_LordCommander</li>
         </fixedLeaderKinds>
-        <settlementGenerationWeight>0.2</settlementGenerationWeight>
+        <fixedName>Imperium of Mankind</fixedName>
+        <settlementGenerationWeight>1</settlementGenerationWeight>
         <requiredCountAtGameStart>1</requiredCountAtGameStart>
         <maxCountAtGameStart>1</maxCountAtGameStart>
         <allowedArrivalTemperatureRange>-100~200</allowedArrivalTemperatureRange>
@@ -43,6 +44,11 @@
         </backstoryFilters>
         <earliestRaidDays>45</earliestRaidDays>
         <autoFlee>false</autoFlee>
+        <raidCommonalityFromPointsCurve>
+            <points>
+                <li>(0, 1)</li>
+            </points>
+        </raidCommonalityFromPointsCurve>
         <maxPawnCostPerTotalPointsCurve>
             <points>
                 <li>(0,0)</li>
@@ -60,6 +66,7 @@
                 <kindDef>Combat</kindDef>
                 <commonality>100</commonality>
                 <options>
+                    <BEWH_ImperiumGuardman>20</BEWH_ImperiumGuardman>
                     <BEWH_SpaceMarine>10</BEWH_SpaceMarine>
                     <BEWH_SpaceMarinePsyker>2</BEWH_SpaceMarinePsyker>
                 </options>
@@ -77,6 +84,7 @@
                 <!-- Base defense, mainly ranged with melee mix-ins -->
                 <kindDef>Settlement</kindDef>
                 <options>
+                    <BEWH_ImperiumGuardman>20</BEWH_ImperiumGuardman>
                     <BEWH_SpaceMarine>14</BEWH_SpaceMarine>
                     <BEWH_SpaceMarinePsyker>4</BEWH_SpaceMarinePsyker>
                     <BEWH_PrimarisSpaceMarine>4</BEWH_PrimarisSpaceMarine>
@@ -91,6 +99,7 @@
                     <Muffalo>10</Muffalo>
                 </carriers>
                 <guards>
+                    <BEWH_ImperiumGuardman>20</BEWH_ImperiumGuardman>
                     <BEWH_SpaceMarine>12</BEWH_SpaceMarine>
                     <BEWH_PrimarisSpaceMarine>2</BEWH_PrimarisSpaceMarine>
                     <BEWH_SpaceMarinePsyker>2</BEWH_SpaceMarinePsyker>
@@ -99,6 +108,7 @@
             <li>
                 <kindDef>Peaceful</kindDef>
                 <options>
+                    <BEWH_ImperiumGuardman>16</BEWH_ImperiumGuardman>
                     <BEWH_SpaceMarine>10</BEWH_SpaceMarine>
                     <BEWH_SpaceMarinePsyker>2</BEWH_SpaceMarinePsyker>
                 </options>

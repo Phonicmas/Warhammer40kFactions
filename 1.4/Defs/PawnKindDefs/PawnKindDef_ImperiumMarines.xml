@@ -10,14 +10,14 @@
         <initialResistanceRange>300~400</initialResistanceRange>
         <acceptArrestChanceFactor>0</acceptArrestChanceFactor>
         <invNutrition>2.55</invNutrition>
-        <backstoryCryptosleepCommonality>1.0</backstoryCryptosleepCommonality>
+        <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
         <fixedGender>Male</fixedGender>
         <minGenerationAge>19</minGenerationAge>
         <maxGenerationAge>21</maxGenerationAge>
         <itemQuality>Good</itemQuality>
         <ignoreIdeoApparelColors>true</ignoreIdeoApparelColors>
         <requiredWorkTags>Violent</requiredWorkTags>
-        <allowOldAgeInjuries>false</allowOldAgeInjuries>
+        <useFactionXenotypes>false</useFactionXenotypes>
         <backstoryFiltersOverride>
             <li>
                 <categories>
@@ -26,7 +26,6 @@
                 </categories>
             </li>
         </backstoryFiltersOverride>
-        <useFactionXenotypes>false</useFactionXenotypes>
         <gearHealthRange>
             <min>1</min>
             <max>1</max>
