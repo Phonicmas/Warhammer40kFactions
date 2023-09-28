@@ -166,8 +166,7 @@
             <operations>
                 <!-- Chaos Cultist & Imperial Trader -->
                 <li Class="PatchOperationAddModExtension">
-                    <xpath>Defs/PawnKindDef[@Name="ChaosCultistBasePawn" or
-                        defName="BEWH_ImperiumTrader"]</xpath>
+                    <xpath>Defs/PawnKindDef[@Name="ChaosCultistBasePawn" or defName="BEWH_ImperiumTrader"]</xpath>
                     <value>
                         <li Class="CombatExtended.LoadoutPropertiesExtension">
                             <primaryMagazineCount>
@@ -206,8 +205,7 @@
 
                 <!-- Space Marines -->
                 <li Class="PatchOperationAddModExtension">
-                    <xpath>Defs/PawnKindDef[@Name="ChaosMarineBasePawn" or
-                        @Name="SpaceMarineBasePawn"]</xpath>
+                    <xpath>Defs/PawnKindDef[@Name="ChaosMarineBasePawn" or @Name="SpaceMarineBasePawn"]</xpath>
                     <value>
                         <li Class="CombatExtended.LoadoutPropertiesExtension">
                             <primaryMagazineCount>

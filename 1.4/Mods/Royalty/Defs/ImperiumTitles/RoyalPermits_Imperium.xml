@@ -160,7 +160,7 @@
             <pawnCount>4</pawnCount>
             <targetingRange>39.9</targetingRange>
         </royalAid>
-        <cooldownDays>40</cooldownDays>
+        <cooldownDays>20</cooldownDays>
     </RoyalTitlePermitDef>
 
     <!-- Primaris Marine -->
@@ -180,7 +180,10 @@
             <pawnCount>4</pawnCount>
             <targetingRange>39.9</targetingRange>
         </royalAid>
-        <cooldownDays>50</cooldownDays>
+        <cooldownDays>35</cooldownDays>
+        <modExtensions>
+            <li Class="Faction40k.DefModExtension_KeepTitlePrerequisite"/>
+        </modExtensions>
     </RoyalTitlePermitDef>
 
     <!-- Custodes -->
@@ -200,7 +203,10 @@
             <pawnCount>2</pawnCount>
             <targetingRange>39.9</targetingRange>
         </royalAid>
-        <cooldownDays>60</cooldownDays>
+        <cooldownDays>50</cooldownDays>
+        <modExtensions>
+            <li Class="Faction40k.DefModExtension_KeepTitlePrerequisite"/>
+        </modExtensions>
     </RoyalTitlePermitDef>
 
     <!-- Orbital Bombardment -->
