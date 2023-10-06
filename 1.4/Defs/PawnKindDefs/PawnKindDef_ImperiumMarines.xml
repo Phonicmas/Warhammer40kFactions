@@ -36,8 +36,6 @@
             <max>9000</max>
         </apparelMoney>
         <apparelTags>
-            <li>IndustrialBasic</li>
-            <li>IndustrialAdvanced</li>
             <li>IndustrialMilitaryBasic</li>
             <li>IndustrialMilitaryAdvanced</li>
         </apparelTags>
@@ -45,19 +43,19 @@
             <li>Western</li>
         </apparelDisallowTags>
         <apparelColor>(250,250,250)</apparelColor>
-        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
-        <specificApparelRequirements Inherit="False">
-            <li>
-                <bodyPartGroup>Torso</bodyPartGroup>
-                <apparelLayer>OnSkin</apparelLayer>
-                <stuff>Synthread</stuff>
-            </li>
-            <li>
-                <bodyPartGroup>Legs</bodyPartGroup>
-                <apparelLayer>OnSkin</apparelLayer>
-                <stuff>Synthread</stuff>
-            </li>
-        </specificApparelRequirements>
+        <apparelRequired>
+            <li>Apparel_BasicShirt</li>
+            <li>Apparel_Pants</li>
+            <li>BEWH_ImperiumPowerArmor</li>
+            <li>BEWH_ImperiumPowerArmorHelmet</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>SpacerGun</li>
+            <li>UltratechMelee</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
         <inventoryOptions>
             <subOptionsChooseOne>
                 <li>
@@ -82,22 +80,10 @@
     </PawnKindDef>
 
     <!-- Space Marine -->
-
     <PawnKindDef ParentName="SpaceMarineBasePawn">
         <defName>BEWH_SpaceMarine</defName>
         <label>Tactical Marine</label>
         <combatPower>200</combatPower>
-        <weaponTags>
-            <li>SpacerGun</li>
-            <li>UltratechMelee</li>
-        </weaponTags>
-        <apparelRequired>
-            <li>BEWH_ImperiumPowerArmor</li>
-            <li>BEWH_ImperiumPowerArmorHelmet</li>
-        </apparelRequired>
-        <disallowedTraits>
-            <li>Brawler</li>
-        </disallowedTraits>
         <skills>
             <li>
                 <skill>Shooting</skill>
@@ -115,57 +101,11 @@
         </xenotypeSet>
     </PawnKindDef>
 
-    <!-- Primaris Space Marine -->
-
-    <PawnKindDef ParentName="SpaceMarineBasePawn">
-        <defName>BEWH_PrimarisSpaceMarine</defName>
-        <label>Tactical Primaris Marine</label>
-        <combatPower>300</combatPower>
-        <weaponTags>
-            <li>SpacerGun</li>
-            <li>UltratechMelee</li>
-        </weaponTags>
-        <apparelRequired>
-            <li>BEWH_ImperiumPowerArmor</li>
-            <li>BEWH_ImperiumPrimarisPowerArmorHelmet</li>
-        </apparelRequired>
-        <disallowedTraits>
-            <li>Brawler</li>
-        </disallowedTraits>
-        <skills>
-            <li>
-                <skill>Shooting</skill>
-                <range>14~17</range>
-            </li>
-            <li>
-                <skill>Melee</skill>
-                <range>14~17</range>
-            </li>
-        </skills>
-        <xenotypeSet>
-            <xenotypeChances>
-                <BEWH_PrimarisSpaceMarine>1</BEWH_PrimarisSpaceMarine>
-            </xenotypeChances>
-        </xenotypeSet>
-    </PawnKindDef>
-
     <!-- Space Marine Psyker -->
-
     <PawnKindDef ParentName="SpaceMarineBasePawn">
         <defName>BEWH_SpaceMarinePsyker</defName>
         <label>Librarian</label>
         <combatPower>280</combatPower>
-        <weaponTags>
-            <li>SpacerGun</li>
-            <li>UltratechMelee</li>
-        </weaponTags>
-        <apparelRequired>
-            <li>BEWH_ImperiumPowerArmor</li>
-            <li>BEWH_ImperiumPowerArmorHelmet</li>
-        </apparelRequired>
-        <disallowedTraits>
-            <li>Brawler</li>
-        </disallowedTraits>
         <skills>
             <li>
                 <skill>Shooting</skill>
@@ -183,24 +123,42 @@
         </xenotypeSet>
     </PawnKindDef>
 
-    <!-- Custodes -->
+    <!-- Primaris Space Marine -->
+    <PawnKindDef ParentName="SpaceMarineBasePawn">
+        <defName>BEWH_PrimarisSpaceMarine</defName>
+        <label>Tactical Primaris Marine</label>
+        <combatPower>300</combatPower>
+        <apparelRequired Inherit="False">
+            <li>BEWH_ImperiumPowerArmor</li>
+            <li>BEWH_ImperiumPrimarisPowerArmorHelmet</li>
+        </apparelRequired>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>14~17</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>14~17</range>
+            </li>
+        </skills>
+        <xenotypeSet>
+            <xenotypeChances>
+                <BEWH_PrimarisSpaceMarine>1</BEWH_PrimarisSpaceMarine>
+            </xenotypeChances>
+        </xenotypeSet>
+    </PawnKindDef>
 
+    <!-- Custodes -->
     <PawnKindDef ParentName="SpaceMarineBasePawn">
         <defName>BEWH_Custodes</defName>
         <label>custodes</label>
         <combatPower>1500</combatPower>
-        <weaponTags>
-            <li>SpacerGun</li>
-            <li>UltratechMelee</li>
-        </weaponTags>
         <apparelColor>(240,170,30)</apparelColor>
-        <apparelRequired>
+        <apparelRequired Inherit="False">
             <li>BEWH_ImperiumPowerArmor</li>
             <li>BEWH_ImperiumPrimarisPowerArmorHelmet</li>
         </apparelRequired>
-        <disallowedTraits>
-            <li>Brawler</li>
-        </disallowedTraits>
         <skills>
             <li>
                 <skill>Shooting</skill>
@@ -219,24 +177,16 @@
     </PawnKindDef>
 
     <!-- Lord Commander - Primarch -->
-
     <PawnKindDef ParentName="SpaceMarineBasePawn">
         <defName>BEWH_LordCommander</defName>
         <label>primarch</label>
         <combatPower>2000</combatPower>
         <factionLeader>true</factionLeader>
-        <weaponTags>
-            <li>SpacerGun</li>
-            <li>UltratechMelee</li>
-        </weaponTags>
         <apparelColor>(230,150,0)</apparelColor>
-        <apparelRequired>
+        <apparelRequired Inherit="False">
             <li>BEWH_ImperiumPowerArmor</li>
             <li>BEWH_ImperiumPrimarisPowerArmorHelmet</li>
         </apparelRequired>
-        <disallowedTraits>
-            <li>Brawler</li>
-        </disallowedTraits>
         <skills>
             <li>
                 <skill>Shooting</skill>
