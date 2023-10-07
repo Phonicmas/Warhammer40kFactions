@@ -19,6 +19,7 @@
             <li>
                 <categories>
                     <li>ImperialFighter</li>
+                    <li>Offworld</li>
                 </categories>
             </li>
         </backstoryFiltersOverride>
@@ -29,34 +30,24 @@
         </gearHealthRange>
         <weaponMoney>200~1000</weaponMoney>
         <apparelMoney>
-            <min>200</min>
-            <max>1000</max>
+            <min>0</min>
+            <max>10</max>
         </apparelMoney>
-        <apparelTags>
-            <li>IndustrialBasic</li>
-            <li>IndustrialAdvanced</li>
-            <li>IndustrialMilitaryBasic</li>
-            <li>IndustrialMilitaryAdvanced</li>
-        </apparelTags>
         <apparelDisallowTags>
             <li>Western</li>
         </apparelDisallowTags>
-        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
         <disallowedTraits>
             <li>Brawler</li>
         </disallowedTraits>
-        <specificApparelRequirements Inherit="False">
-            <li>
-                <bodyPartGroup>Torso</bodyPartGroup>
-                <apparelLayer>OnSkin</apparelLayer>
-                <stuff>Cloth</stuff>
-            </li>
-            <li>
-                <bodyPartGroup>Legs</bodyPartGroup>
-                <apparelLayer>OnSkin</apparelLayer>
-                <stuff>Cloth</stuff>
-            </li>
-        </specificApparelRequirements>
+        <weaponTags>
+            <li>IndustrialGunAdvanced</li>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>Apparel_Pants</li>
+            <li>Apparel_BasicShirt</li>
+            <li>Apparel_Duster</li>
+        </apparelRequired>
         <inventoryOptions>
             <subOptionsChooseOne>
                 <li>
@@ -94,15 +85,6 @@
         <defName>BEWH_ChaosCultistUndivided</defName>
         <label>Chaos Cultist</label>
         <apparelColor>(20,20,20)</apparelColor>
-        <weaponTags>
-            <li>IndustrialGunAdvanced</li>
-            <li>MedievalMeleeAdvanced</li>
-        </weaponTags>
-        <apparelRequired>
-            <li>Apparel_Pants</li>
-            <li>Apparel_BasicShirt</li>
-            <li>Apparel_Duster</li>
-        </apparelRequired>
         <xenotypeSet>
             <xenotypeChances>
                 <BEWH_ChaosCultist>1</BEWH_ChaosCultist>
@@ -116,15 +98,6 @@
         <defName>BEWH_ChaosCultistKhorne</defName>
         <label>Khorne Cultist</label>
         <apparelColor>(110,0,0)</apparelColor>
-        <weaponTags>
-            <li>IndustrialGunAdvanced</li>
-            <li>MedievalMeleeAdvanced</li>
-        </weaponTags>
-        <apparelRequired>
-            <li>Apparel_Pants</li>
-            <li>Apparel_BasicShirt</li>
-            <li>Apparel_Duster</li>
-        </apparelRequired>
         <xenotypeSet>
             <xenotypeChances>
                 <BEWH_KhorneCultist>1</BEWH_KhorneCultist>
@@ -138,15 +111,6 @@
         <defName>BEWH_ChaosCultistNurgle</defName>
         <label>Nurgle Cultist</label>
         <apparelColor>(65,75,0)</apparelColor>
-        <weaponTags>
-            <li>IndustrialGunAdvanced</li>
-            <li>MedievalMeleeAdvanced</li>
-        </weaponTags>
-        <apparelRequired>
-            <li>Apparel_Pants</li>
-            <li>Apparel_BasicShirt</li>
-            <li>Apparel_Duster</li>
-        </apparelRequired>
         <xenotypeSet>
             <xenotypeChances>
                 <BEWH_NurgleCultist>1</BEWH_NurgleCultist>
@@ -160,15 +124,6 @@
         <defName>BEWH_ChaosCultistSlaanesh</defName>
         <label>Slaanesh Cultist</label>
         <apparelColor>(170,0,75)</apparelColor>
-        <weaponTags>
-            <li>IndustrialGunAdvanced</li>
-            <li>MedievalMeleeAdvanced</li>
-        </weaponTags>
-        <apparelRequired>
-            <li>Apparel_Pants</li>
-            <li>Apparel_BasicShirt</li>
-            <li>Apparel_Duster</li>
-        </apparelRequired>
         <xenotypeSet>
             <xenotypeChances>
                 <BEWH_SlaaneshCultist>1</BEWH_SlaaneshCultist>
@@ -182,15 +137,6 @@
         <defName>BEWH_ChaosCultistTzeentch</defName>
         <label>Tzeentch Cultist</label>
         <apparelColor>(0,60,155)</apparelColor>
-        <weaponTags>
-            <li>IndustrialGunAdvanced</li>
-            <li>MedievalMeleeAdvanced</li>
-        </weaponTags>
-        <apparelRequired>
-            <li>Apparel_Pants</li>
-            <li>Apparel_BasicShirt</li>
-            <li>Apparel_Duster</li>
-        </apparelRequired>
         <xenotypeSet>
             <xenotypeChances>
                 <BEWH_TzeentchCultist>1</BEWH_TzeentchCultist>

@@ -21,6 +21,7 @@
             <li>
                 <categories>
                     <li>ImperialFighter</li>
+                    <li>Offworld</li>
                 </categories>
             </li>
         </backstoryFiltersOverride>
@@ -34,6 +35,13 @@
             <min>0</min>
             <max>0</max>
         </apparelMoney>
+        <weaponTags>
+            <li>SpacerGun</li>
+            <li>UltratechMelee</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
         <inventoryOptions>
             <subOptionsChooseOne>
                 <li>
@@ -71,17 +79,6 @@
         <defName>BEWH_DPUndivided</defName>
         <label>Chaos Marine</label>
         <apparelColor>(20,20,20)</apparelColor>
-        <weaponTags>
-            <li>SpacerGun</li>
-            <li>UltratechMelee</li>
-        </weaponTags>
-        <apparelRequired>
-            <li>Apparel_PowerArmor</li>
-            <li>Apparel_PowerArmorHelmet</li>
-        </apparelRequired>
-        <disallowedTraits>
-            <li>Brawler</li>
-        </disallowedTraits>
         <xenotypeSet>
             <xenotypeChances>
                 <BEWH_DPUndivided>1</BEWH_DPUndivided>
@@ -95,18 +92,6 @@
         <defName>BEWH_DPKhorne</defName>
         <label>Khorne Marine</label>
         <apparelColor>(110,0,0)</apparelColor>
-        <weaponTags>
-            <li>UltratechMelee</li>
-        </weaponTags>
-        <forcedTraits>
-            <li>Brawler</li>
-        </forcedTraits>
-        <skills>
-            <li>
-                <skill>Melee</skill>
-                <range>18~20</range>
-            </li>
-        </skills>
         <xenotypeSet>
             <xenotypeChances>
                 <BEWH_DPKhorne>1</BEWH_DPKhorne>
@@ -120,9 +105,6 @@
         <defName>BEWH_DPNurgle</defName>
         <label>Nurgle Marine</label>
         <apparelColor>(65,75,0)</apparelColor>
-        <weaponTags>
-            <li>UltratechMelee</li>
-        </weaponTags>
         <xenotypeSet>
             <xenotypeChances>
                 <BEWH_DPNurgle>1</BEWH_DPNurgle>
@@ -136,9 +118,6 @@
         <defName>BEWH_DPSlaanesh</defName>
         <label>Slaanesh Marine</label>
         <apparelColor>(170,0,75)</apparelColor>
-        <weaponTags>
-            <li>UltratechMelee</li>
-        </weaponTags>
         <xenotypeSet>
             <xenotypeChances>
                 <BEWH_DPSlaanesh>1</BEWH_DPSlaanesh>
@@ -152,9 +131,6 @@
         <defName>BEWH_DPTzeentch</defName>
         <label>Tzeentch Marine</label>
         <apparelColor>(0,60,155)</apparelColor>
-        <weaponTags>
-            <li>UltratechMelee</li>
-        </weaponTags>
         <xenotypeSet>
             <xenotypeChances>
                 <BEWH_DPTzeentch>1</BEWH_DPTzeentch>

@@ -48,7 +48,7 @@
         <combatPower>20</combatPower>
         <trader>true</trader>
         <isFighter>false</isFighter>
-        <apparelRequired Inherit="True">
+        <apparelRequired>
             <li>Apparel_Duster</li>
             <li>Apparel_FlakVest</li>
         </apparelRequired>
@@ -60,7 +60,7 @@
         <combatPower>20</combatPower>
         <trader>false</trader>
         <isFighter>false</isFighter>
-        <apparelRequired Inherit="True">
+        <apparelRequired>
             <li>Apparel_Duster</li>
         </apparelRequired>
         <skills>

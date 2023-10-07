@@ -15,7 +15,6 @@
     </ThingDef>
 
     <!-- ===== NURGLE ===== -->
-
     <!-- Power Armor Nurgle -->
     <ThingDef ParentName="BEWH_PowerArmorChaosBase">
         <defName>BEWH_NurglePowerArmor</defName>
@@ -56,7 +55,6 @@
 
 
     <!-- ===== TZEENTCH ===== -->
-
     <!-- Power Armor Tzeentch -->
     <ThingDef ParentName="BEWH_PowerArmorChaosBase">
         <defName>BEWH_TzeentchPowerArmor</defName>
@@ -97,7 +95,6 @@
 
 
     <!-- ===== SLAANESH ===== -->
-
     <!-- Power Armor Slaanesh -->
     <ThingDef ParentName="BEWH_PowerArmorChaosBase">
         <defName>BEWH_SlaaneshPowerArmor</defName>
@@ -138,7 +135,6 @@
 
 
     <!-- ===== KHORNE ===== -->
-
     <!-- Power Armor Khorne -->
     <ThingDef ParentName="BEWH_PowerArmorChaosBase">
         <defName>BEWH_KhornePowerArmor</defName>
@@ -176,48 +172,5 @@
             </tags>
         </apparel>
     </ThingDef>
-
-
-    <!-- ===== UNDIVIDED ===== -->
-
-    <!-- Power Armor Undivided -->
-    <!--<ThingDef
-    ParentName="BEWH_PowerArmorChaosBase">
-        <defName>BEWH_UndividedPowerArmor</defName>
-        <label>Undivided Power Armor</label>
-        <description>Power armor of Undivided Space Marines</description>
-        <graphicData>
-            <texPath>Things/Armor/Chaos/Undivided/UndividedPowerArmor</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <shaderType>CutoutComplex</shaderType>
-        </graphicData>
-        <apparel>
-            <wornGraphicPath>Things/Armor/Chaos/Undivided/UndividedPowerArmor</wornGraphicPath>
-            <tags>
-                <li>UndividedPowerArmor</li>
-                <li>EVA</li>
-            </tags>
-        </apparel>
-    </ThingDef>-->
-
-    <!-- Power Armor Helmet Undivided -->
-    <!--<ThingDef
-    ParentName="BEWH_PowerArmorHelmetChaosBase">
-        <defName>BEWH_UndividedPowerArmorHelmet</defName>
-        <label>Undivided Power Helmet</label>
-        <description>Standard issue helmet of Undivided Space Marines</description>
-        <graphicData>
-            <texPath>Things/Headgear/Chaos/Undivided/UndividedHelmet</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <shaderType>CutoutComplex</shaderType>
-        </graphicData>
-        <apparel>
-            <wornGraphicPath>Things/Headgear/Chaos/Undivided/UndividedHelmet</wornGraphicPath>
-            <tags>
-                <li>UndividedPowerArmorHelmet</li>
-                <li>EVA</li>
-            </tags>
-        </apparel>
-    </ThingDef>-->
 
 </Defs>

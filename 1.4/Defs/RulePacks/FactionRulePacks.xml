@@ -2,7 +2,6 @@
 <Defs>
 
     <!-- Name of Imperium Faction -->
-
     <RulePackDef>
         <defName>BEWH_FactionNameMaker</defName>
         <rulePack>
@@ -13,7 +12,6 @@
     </RulePackDef>
 
     <!-- Name of settlements -->
-
     <RulePackDef>
         <defName>BEWH_SettlementNameMaker</defName>
         <rulePack>
@@ -30,7 +28,6 @@
     </RulePackDef>
 
     <!-- Name of Chaos Faction -->
-
     <RulePackDef>
         <defName>BEWH_FactionChaosNameMaker</defName>
         <rulePack>

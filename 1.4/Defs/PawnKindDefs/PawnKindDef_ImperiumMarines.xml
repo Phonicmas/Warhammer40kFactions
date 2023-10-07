@@ -13,7 +13,7 @@
         <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
         <fixedGender>Male</fixedGender>
         <minGenerationAge>19</minGenerationAge>
-        <maxGenerationAge>21</maxGenerationAge>
+        <maxGenerationAge>48</maxGenerationAge>
         <itemQuality>Good</itemQuality>
         <ignoreIdeoApparelColors>true</ignoreIdeoApparelColors>
         <requiredWorkTags>Violent</requiredWorkTags>
@@ -123,15 +123,20 @@
         </xenotypeSet>
     </PawnKindDef>
 
-    <!-- Primaris Space Marine -->
-    <PawnKindDef ParentName="SpaceMarineBasePawn">
-        <defName>BEWH_PrimarisSpaceMarine</defName>
-        <label>Tactical Primaris Marine</label>
-        <combatPower>300</combatPower>
+
+    <!-- Space Marine -->
+    <PawnKindDef ParentName="SpaceMarineBasePawn" Name="PrimarisMarineBasePawn" Abstract="True">
         <apparelRequired Inherit="False">
             <li>BEWH_ImperiumPowerArmor</li>
             <li>BEWH_ImperiumPrimarisPowerArmorHelmet</li>
         </apparelRequired>
+    </PawnKindDef>
+
+    <!-- Primaris Space Marine -->
+    <PawnKindDef ParentName="PrimarisMarineBasePawn">
+        <defName>BEWH_PrimarisSpaceMarine</defName>
+        <label>Tactical Primaris Marine</label>
+        <combatPower>300</combatPower>
         <skills>
             <li>
                 <skill>Shooting</skill>
@@ -150,15 +155,11 @@
     </PawnKindDef>
 
     <!-- Custodes -->
-    <PawnKindDef ParentName="SpaceMarineBasePawn">
+    <PawnKindDef ParentName="PrimarisMarineBasePawn">
         <defName>BEWH_Custodes</defName>
         <label>custodes</label>
         <combatPower>1500</combatPower>
         <apparelColor>(240,170,30)</apparelColor>
-        <apparelRequired Inherit="False">
-            <li>BEWH_ImperiumPowerArmor</li>
-            <li>BEWH_ImperiumPrimarisPowerArmorHelmet</li>
-        </apparelRequired>
         <skills>
             <li>
                 <skill>Shooting</skill>
@@ -177,16 +178,12 @@
     </PawnKindDef>
 
     <!-- Lord Commander - Primarch -->
-    <PawnKindDef ParentName="SpaceMarineBasePawn">
+    <PawnKindDef ParentName="PrimarisMarineBasePawn">
         <defName>BEWH_LordCommander</defName>
         <label>primarch</label>
         <combatPower>2000</combatPower>
         <factionLeader>true</factionLeader>
         <apparelColor>(230,150,0)</apparelColor>
-        <apparelRequired Inherit="False">
-            <li>BEWH_ImperiumPowerArmor</li>
-            <li>BEWH_ImperiumPrimarisPowerArmorHelmet</li>
-        </apparelRequired>
         <skills>
             <li>
                 <skill>Shooting</skill>

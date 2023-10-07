@@ -4,8 +4,7 @@
     <FactionDef ParentName="FactionBase">
         <defName>BEWH_ImperiumFaction</defName>
         <label>Imperium</label>
-        <description>A company of the emperors finest warriors, the Adeptus Astartes, charged with
-            purging heresy from this backwater rimworld.</description>
+        <description>A company of the emperors finest warriors, the Adeptus Astartes, charged with purging heresy from this backwater rimworld.</description>
         <pawnSingular>Space marine</pawnSingular>
         <pawnsPlural>Space marines</pawnsPlural>
         <fixedLeaderKinds>
@@ -14,7 +13,6 @@
         <fixedName>Imperium of Mankind</fixedName>
         <settlementGenerationWeight>1</settlementGenerationWeight>
         <requiredCountAtGameStart>1</requiredCountAtGameStart>
-        <maxCountAtGameStart>1</maxCountAtGameStart>
         <allowedArrivalTemperatureRange>-100~200</allowedArrivalTemperatureRange>
         <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
         <configurationListOrderPriority>90</configurationListOrderPriority>
@@ -30,15 +28,17 @@
         <settlementTexturePath>World/WorldObjects/Imperium/ImperiumIcon</settlementTexturePath>
         <xenotypeSet Inherit="False">
             <xenotypeChances>
-                <BEWH_SpaceMarine>0.80</BEWH_SpaceMarine>
-                <BEWH_PrimarisSpaceMarine>0.10</BEWH_PrimarisSpaceMarine>
-                <BEWH_SpaceMarinePsyker>0.10</BEWH_SpaceMarinePsyker>
+                <BEWH_SpaceMarine>0.70</BEWH_SpaceMarine>
+                <BEWH_PrimarisSpaceMarine>0.15</BEWH_PrimarisSpaceMarine>
+                <BEWH_SpaceMarinePsyker>0.13</BEWH_SpaceMarinePsyker>
+                <BEWH_Custodes>0.02</BEWH_Custodes>
             </xenotypeChances>
         </xenotypeSet>
         <backstoryFilters>
             <li>
                 <categoriesAdulthood>
                     <li>ImperialFighter</li>
+                    <li>Offworld</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFilters>
@@ -88,6 +88,7 @@
                     <BEWH_SpaceMarine>14</BEWH_SpaceMarine>
                     <BEWH_SpaceMarinePsyker>4</BEWH_SpaceMarinePsyker>
                     <BEWH_PrimarisSpaceMarine>4</BEWH_PrimarisSpaceMarine>
+                    <BEWH_Custodes>10</BEWH_Custodes>
                 </options>
             </li>
             <li>
