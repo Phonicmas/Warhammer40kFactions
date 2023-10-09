@@ -1,6 +1,5 @@
 ﻿using HarmonyLib;
 using RimWorld;
-using Verse;
 
 
 namespace Faction40k

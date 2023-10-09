@@ -6,8 +6,23 @@
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/PawnKindDef[defName = "BEWH_SpaceMarine"]/apparelRequired</xpath>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/PawnKindDef[@Name = "SpaceMarineBasePawn"]/apparelRequired</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef[@Name = "SpaceMarineBasePawn"]</xpath>
+					<value>
+						<apparelRequired>
+							<li>Apparel_BasicShirt</li>
+							<li>Apparel_Pants</li>
+						</apparelRequired>
+					</value>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/PawnKindDef[@Name = "PrimarisMarineBasePawn"]/apparelRequired</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef[defName = "BEWH_SpaceMarine"]</xpath>
 					<value>
 						<apparelRequired>
 							<li>ODZ_40k_AS_UM_MkVIIArmor</li>
@@ -15,8 +30,8 @@
 						</apparelRequired>
 					</value>
 				</li>
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/PawnKindDef[defName = "BEWH_PrimarisSpaceMarine"]/apparelRequired</xpath>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef[defName = "BEWH_PrimarisSpaceMarine"]</xpath>
 					<value>
 						<apparelRequired>
 							<li>ODZ_40k_AS_UM_MkXArmor</li>
@@ -24,8 +39,8 @@
 						</apparelRequired>
 					</value>
 				</li>
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/PawnKindDef[defName = "BEWH_SpaceMarinePsyker"]/apparelRequired</xpath>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef[defName = "BEWH_SpaceMarinePsyker"]</xpath>
 					<value>
 						<apparelRequired>
 							<li>ODZ_40k_AS_UM_MkXArmor</li>
@@ -33,17 +48,17 @@
 						</apparelRequired>
 					</value>
 				</li>
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/PawnKindDef[defName = "BEWH_Custodes"]/apparelRequired</xpath>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef[defName = "BEWH_Custodes"]</xpath>
 					<value>
 						<apparelRequired>
-							<li>ODZ_40k_AS_UM_MkXArmor</li>
-							<li>ODZ_40k_AS_LT_UM_MkXHelmet</li>
+							<li>ODZ_40k_AS_UM_GravisArmor</li>
+							<li>ODZ_40k_AS_FB_UM_GravisHelmet</li>
 						</apparelRequired>
 					</value>
 				</li>
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/PawnKindDef[defName = "BEWH_LordCommander"]/apparelRequired</xpath>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef[defName = "BEWH_LordCommander"]</xpath>
 					<value>
 						<apparelRequired>
 							<li>ODZ_40k_AS_UM_GravisArmor</li>

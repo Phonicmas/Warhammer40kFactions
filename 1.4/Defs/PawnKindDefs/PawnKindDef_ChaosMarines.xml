@@ -88,6 +88,19 @@
         <combatPower>200</combatPower>
     </PawnKindDef>
 
+    <PawnKindDef ParentName="ChaosMarineBasePawn" Name="ChaosPsykerMarineBasePawn" Abstract="True">
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>7~12</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>7~12</range>
+            </li>
+        </skills>
+    </PawnKindDef>
+
     <!-- Undivided Marine -->
 
     <PawnKindDef ParentName="ChaosMarineBasePawn">
@@ -107,7 +120,7 @@
 
     <!-- Undivided Marine Psyker -->
 
-    <PawnKindDef ParentName="ChaosMarineBasePawn">
+    <PawnKindDef ParentName="ChaosPsykerMarineBasePawn">
         <defName>BEWH_ChaosMarineUndividedPsyker</defName>
         <label>Chaos Marine</label>
         <apparelColor>(20,20,20)</apparelColor>
@@ -115,16 +128,6 @@
             <li>BEWH_ImperiumPowerArmor</li>
             <li>BEWH_ImperiumPowerArmorHelmet</li>
         </apparelRequired>
-        <skills>
-            <li>
-                <skill>Shooting</skill>
-                <range>7~12</range>
-            </li>
-            <li>
-                <skill>Melee</skill>
-                <range>7~12</range>
-            </li>
-        </skills>
         <xenotypeSet>
             <xenotypeChances>
                 <BEWH_ChaosMarine>1</BEWH_ChaosMarine>
@@ -168,7 +171,7 @@
 
     <!-- Nurgle Marine Psyker -->
 
-    <PawnKindDef ParentName="ChaosMarineBasePawn">
+    <PawnKindDef ParentName="ChaosPsykerMarineBasePawn">
         <defName>BEWH_ChaosMarineNurglePsyker</defName>
         <label>Nurgle Marine</label>
         <apparelColor>(65,75,0)</apparelColor>
@@ -176,16 +179,6 @@
             <li>BEWH_NurglePowerArmor</li>
             <li>BEWH_NurglePowerArmorHelmet</li>
         </apparelRequired>
-        <skills>
-            <li>
-                <skill>Shooting</skill>
-                <range>7~12</range>
-            </li>
-            <li>
-                <skill>Melee</skill>
-                <range>7~12</range>
-            </li>
-        </skills>
         <xenotypeSet>
             <xenotypeChances>
                 <BEWH_NurgleMarine>1</BEWH_NurgleMarine>
@@ -212,7 +205,7 @@
 
     <!-- Slaanesh Marine Psyker -->
 
-    <PawnKindDef ParentName="ChaosMarineBasePawn">
+    <PawnKindDef ParentName="ChaosPsykerMarineBasePawn">
         <defName>BEWH_ChaosMarineSlaaneshPsyker</defName>
         <label>Slaanesh Marine</label>
         <apparelColor>(170,0,75)</apparelColor>
@@ -220,16 +213,6 @@
             <li>BEWH_SlaaneshPowerArmor</li>
             <li>BEWH_SlaaneshPowerArmorHelmet</li>
         </apparelRequired>
-        <skills>
-            <li>
-                <skill>Shooting</skill>
-                <range>7~12</range>
-            </li>
-            <li>
-                <skill>Melee</skill>
-                <range>7~12</range>
-            </li>
-        </skills>
         <xenotypeSet>
             <xenotypeChances>
                 <BEWH_SlaaneshMarine>1</BEWH_SlaaneshMarine>
@@ -255,23 +238,13 @@
 
     <!-- Tzeentch Marine Psyker -->
 
-    <PawnKindDef ParentName="ChaosMarineBasePawn">
+    <PawnKindDef ParentName="ChaosPsykerMarineBasePawn">
         <defName>BEWH_ChaosMarineTzeentchPsyker</defName>
         <label>Tzeentch Psyker</label>
         <apparelRequired>
             <li>BEWH_TzeentchPowerArmor</li>
             <li>BEWH_TzeentchPowerArmorHelmet</li>
         </apparelRequired>
-        <skills>
-            <li>
-                <skill>Shooting</skill>
-                <range>7~12</range>
-            </li>
-            <li>
-                <skill>Melee</skill>
-                <range>7~12</range>
-            </li>
-        </skills>
         <xenotypeSet>
             <xenotypeChances>
                 <BEWH_TzeentchMarine>1</BEWH_TzeentchMarine>
