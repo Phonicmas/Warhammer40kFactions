@@ -11,7 +11,7 @@
         </rulePack>
     </RulePackDef>
 
-    <!-- Name of settlements -->
+    <!-- Name of Imperium settlements -->
     <RulePackDef>
         <defName>BEWH_SettlementNameMaker</defName>
         <rulePack>
@@ -33,6 +33,16 @@
         <rulePack>
             <rulesStrings>
                 <li>r_name->Chaos</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <!-- Name of Chaos settlements -->
+    <RulePackDef>
+        <defName>BEWH_ChaosSettlementNameMaker</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->Chaos Shrine</li>
             </rulesStrings>
         </rulePack>
     </RulePackDef>

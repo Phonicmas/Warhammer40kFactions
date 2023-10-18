@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Warhammer 40k - Factions</name>
+	<name>Warhammer 40.000 - Factions</name>
 	<author>Phonicmas</author>
 	<supportedVersions>
 		<li>1.4</li>
@@ -24,7 +24,7 @@
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>Grimworld.Core</li>
 		<li>HappyPurging.AgeofDarkness</li>
-		<li>Phonicmas.40kGenes</li>
 		<li>Phonicmas.40kCore</li>
+		<li>Phonicmas.40kGenes</li>
 	</loadAfter>
 </ModMetaData>

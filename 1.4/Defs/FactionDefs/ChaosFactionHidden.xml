@@ -5,8 +5,9 @@
         <defName>BEWH_ChaosFactionHidden</defName>
         <label>Chaos</label>
         <description>Chaos</description>
-        <pawnSingular>Chaos</pawnSingular>
-        <pawnsPlural>Chaos</pawnsPlural>
+        <pawnSingular>Cultist</pawnSingular>
+        <pawnsPlural>Cultists</pawnsPlural>
+        <fixedName>Chaos Undivided</fixedName>
         <requiredCountAtGameStart>1</requiredCountAtGameStart>
         <maxCountAtGameStart>1</maxCountAtGameStart>
         <allowedArrivalTemperatureRange>-100~200</allowedArrivalTemperatureRange>
@@ -40,6 +41,7 @@
             <li>
                 <categoriesAdulthood>
                     <li>ImperialFighter</li>
+                    <li>Offworld</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFilters>

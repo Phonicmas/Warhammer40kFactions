@@ -138,4 +138,28 @@
         </xenotypeSet>
     </PawnKindDef>
 
+    <!-- Lord Commander - Primarch -->
+    <PawnKindDef ParentName="DaemonPrincePawnBase">
+        <defName>BEWH_DaemonLordLeader</defName>
+        <label>daemon lord</label>
+        <combatPower>2000</combatPower>
+        <factionLeader>true</factionLeader>
+        <apparelColor>(20,20,20)</apparelColor>
+        <xenotypeSet>
+            <xenotypeChances>
+                <BEWH_DPUndivided>1</BEWH_DPUndivided>
+            </xenotypeChances>
+        </xenotypeSet>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>20~20</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>20~20</range>
+            </li>
+        </skills>
+    </PawnKindDef>
+
 </Defs>

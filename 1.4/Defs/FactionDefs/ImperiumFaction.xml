@@ -5,8 +5,8 @@
         <defName>BEWH_ImperiumFaction</defName>
         <label>Imperium</label>
         <description>A company of the emperors finest warriors, the Adeptus Astartes, charged with purging heresy from this backwater rimworld.</description>
-        <pawnSingular>Space marine</pawnSingular>
-        <pawnsPlural>Space marines</pawnsPlural>
+        <pawnSingular>Human</pawnSingular>
+        <pawnsPlural>Humen</pawnsPlural>
         <fixedLeaderKinds>
             <li>BEWH_LordCommander</li>
         </fixedLeaderKinds>
@@ -28,9 +28,9 @@
         <settlementTexturePath>World/WorldObjects/Imperium/ImperiumIcon</settlementTexturePath>
         <xenotypeSet Inherit="False">
             <xenotypeChances>
-                <BEWH_SpaceMarine>0.70</BEWH_SpaceMarine>
-                <BEWH_PrimarisSpaceMarine>0.15</BEWH_PrimarisSpaceMarine>
-                <BEWH_SpaceMarinePsyker>0.13</BEWH_SpaceMarinePsyker>
+                <BEWH_SpaceMarine>0.40</BEWH_SpaceMarine>
+                <BEWH_PrimarisSpaceMarine>0.10</BEWH_PrimarisSpaceMarine>
+                <BEWH_SpaceMarinePsyker>0.08</BEWH_SpaceMarinePsyker>
                 <BEWH_Custodes>0.02</BEWH_Custodes>
             </xenotypeChances>
         </xenotypeSet>
