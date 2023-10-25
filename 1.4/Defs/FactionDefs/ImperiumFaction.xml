@@ -24,8 +24,8 @@
         <rescueesCanJoin>false</rescueesCanJoin>
         <factionNameMaker>BEWH_FactionNameMaker</factionNameMaker>
         <settlementNameMaker>BEWH_SettlementNameMaker</settlementNameMaker>
-        <factionIconPath>World/WorldObjects/Imperium/ImperiumIcon</factionIconPath>
-        <settlementTexturePath>World/WorldObjects/Imperium/ImperiumIcon</settlementTexturePath>
+        <factionIconPath>UI/Icons/Imperium/ImperiumIcon</factionIconPath>
+        <settlementTexturePath>UI/Icons/Imperium/ImperiumIcon</settlementTexturePath>
         <xenotypeSet Inherit="False">
             <xenotypeChances>
                 <BEWH_SpaceMarine>0.40</BEWH_SpaceMarine>
@@ -81,7 +81,7 @@
                 </options>
             </li>
             <li>
-                <!-- Base defense, mainly ranged with melee mix-ins -->
+                <!-- Base defense -->
                 <kindDef>Settlement</kindDef>
                 <options>
                     <BEWH_ImperiumGuardman>20</BEWH_ImperiumGuardman>

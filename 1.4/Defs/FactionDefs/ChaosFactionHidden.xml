@@ -21,8 +21,8 @@
         <techLevel>Ultra</techLevel>
         <rescueesCanJoin>false</rescueesCanJoin>
         <factionNameMaker>BEWH_FactionChaosNameMaker</factionNameMaker>
-        <factionIconPath>World/WorldObjects/Chaos/ChaosIcon</factionIconPath>
-        <settlementTexturePath>World/WorldObjects/Chaos/ChaosIcon</settlementTexturePath>
+        <factionIconPath>UI/Icons/Chaos/ChaosIcon</factionIconPath>
+        <settlementTexturePath>UI/Icons/Chaos/ChaosIcon</settlementTexturePath>
         <xenotypeSet Inherit="False">
             <xenotypeChances>
                 <BEWH_ChaosMarine>0.39</BEWH_ChaosMarine>
@@ -113,7 +113,7 @@
                 <kindDef>Combat</kindDef>
                 <commonality>100</commonality>
                 <options>
-                    <BEWH_ChaosCultistTzeentch>1</BEWH_ChaosCultistTzeentch>
+                    <BEWH_ChaosCultistTzeentch>100</BEWH_ChaosCultistTzeentch>
                     <BEWH_ChaosMarineTzeentch>100</BEWH_ChaosMarineTzeentch>
                     <BEWH_ChaosMarineTzeentchPsyker>50</BEWH_ChaosMarineTzeentchPsyker>
                     <BEWH_DPTzeentch>1</BEWH_DPTzeentch>
