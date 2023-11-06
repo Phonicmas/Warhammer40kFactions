@@ -31,8 +31,12 @@
         <weaponMoney>200~1000</weaponMoney>
         <apparelMoney>
             <min>0</min>
-            <max>10</max>
+            <max>0</max>
         </apparelMoney>
+        <apparelTags>
+            <li>IndustrialMilitaryBasic</li>
+            <li>IndustrialMilitaryAdvanced</li>
+        </apparelTags>
         <apparelDisallowTags>
             <li>Western</li>
         </apparelDisallowTags>
