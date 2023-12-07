@@ -8,10 +8,10 @@
         <pawnSingular>Cultist</pawnSingular>
         <pawnsPlural>Cultists</pawnsPlural>
         <fixedName>Chaos Undivided</fixedName>
-        <requiredCountAtGameStart>1</requiredCountAtGameStart>
-        <maxCountAtGameStart>1</maxCountAtGameStart>
+        <requiredCountAtGameStart>0</requiredCountAtGameStart>
+        <maxCountAtGameStart>0</maxCountAtGameStart>
         <allowedArrivalTemperatureRange>-100~200</allowedArrivalTemperatureRange>
-        <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+        <maxConfigurableAtWorldCreation>0</maxConfigurableAtWorldCreation>
         <configurationListOrderPriority>90</configurationListOrderPriority>
         <canSiege>false</canSiege>
         <hidden>true</hidden>
