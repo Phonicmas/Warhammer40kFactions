@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Human Base -->
+    <PawnKindDef Name="BEWH_HumanBase" Abstract="True">
+        <race>Human</race>
+        <initialWillRange>2~4</initialWillRange>
+        <initialResistanceRange>15~24</initialResistanceRange>
+        <defaultFactionType>BEWH_ImperiumFaction</defaultFactionType>
+        <invNutrition>2.55</invNutrition>
+        <backstoryCryptosleepCommonality>1.0</backstoryCryptosleepCommonality>
+        <combatPower>20</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <ignoreIdeoApparelColors>true</ignoreIdeoApparelColors>
+        <useFactionXenotypes>false</useFactionXenotypes>
+        <gearHealthRange>
+            <min>1</min>
+            <max>1</max>
+        </gearHealthRange>
+        <apparelColor>(250,250,250)</apparelColor>
+        <apparelRequired>
+            <li>Apparel_BasicShirt</li>
+            <li>Apparel_Pants</li>
+        </apparelRequired>
+        <inventoryOptions>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <countRange>
+                        <min>1</min>
+                        <max>2</max>
+                    </countRange>
+                </li>
+                <li>
+                    <thingDef>MedicineUltratech</thingDef>
+                    <countRange>
+                        <min>1</min>
+                        <max>2</max>
+                    </countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+    </PawnKindDef>
+
+    <!-- Human Trader -->
+    <PawnKindDef ParentName="BEWH_HumanBase">
+        <defName>BEWH_ImperiumTrader</defName>
+        <combatPower>20</combatPower>
+        <trader>true</trader>
+        <isFighter>false</isFighter>
+        <apparelRequired>
+            <li>Apparel_Duster</li>
+            <li>Apparel_FlakVest</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <!-- Human Laborer -->
+    <PawnKindDef ParentName="BEWH_HumanBase">
+        <defName>BEWH_ImperiumLaborer</defName>
+        <combatPower>20</combatPower>
+        <trader>false</trader>
+        <isFighter>false</isFighter>
+        <apparelRequired>
+            <li>Apparel_Duster</li>
+        </apparelRequired>
+        <skills>
+            <li>
+                <skill>Mining</skill>
+                <range>5~12</range>
+            </li>
+            <li>
+                <skill>Plants</skill>
+                <range>5~12</range>
+            </li>
+            <li>
+                <skill>Cooking</skill>
+                <range>5~12</range>
+            </li>
+            <li>
+                <skill>Crafting</skill>
+                <range>5~12</range>
+            </li>
+            <li>
+                <skill>Construction</skill>
+                <range>5~12</range>
+            </li>
+            <li>
+                <skill>Animals</skill>
+                <range>5~12</range>
+            </li>
+        </skills>
+    </PawnKindDef>
+
+    <!-- Human Guardsman -->
+    <PawnKindDef ParentName="BEWH_HumanBase">
+        <defName>BEWH_ImperiumGuardman</defName>
+        <combatPower>40</combatPower>
+        <trader>false</trader>
+        <isFighter>true</isFighter>
+        <weaponTags>
+            <li>IndustrialGunAdvanced</li>
+        </weaponTags>
+        <weaponMoney>1100~2700</weaponMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelRequired Inherit="False">
+            <li>Apparel_BasicShirt</li>
+            <li>Apparel_AdvancedHelmet</li>
+            <li>Apparel_FlakJacket</li>
+            <li>Apparel_FlakVest</li>
+            <li>Apparel_FlakPants</li>
+        </apparelRequired>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>6~11</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>6~11</range>
+            </li>
+        </skills>
+    </PawnKindDef>
+
+</Defs>

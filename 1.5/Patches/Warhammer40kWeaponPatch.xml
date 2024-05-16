@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Warhammer 40.000: Imperium Weaponry</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef[@Name="ChaosMarineBasePawn" or @Name="SpaceMarineBasePawn"]/weaponTags</xpath>
+					<value>
+						<li>ImperiumRangedArk</li>
+						<li>ImperiumRangedBolter</li>
+						<li>ImperiumRangedFlamer</li>
+						<li>ImperiumRangedGalvanic</li>
+						<li>ImperiumRangedGrenade</li>
+						<li>ImperiumRangedPlasma</li>
+						<li>ImperiumMeleeRegular</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef[@Name="ChaosPsykerMarineBasePawn" or @Name="DaemonPrincePawnBase" or @Name="PrimarisMarineBasePawn" or defName="BEWH_ChaosMarineKhorne" or defName="BEWH_SpaceMarinePsyker"]/weaponTags</xpath>
+					<value>
+						<li>ImperiumMeleeForce</li>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>
